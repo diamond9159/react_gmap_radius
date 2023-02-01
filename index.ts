@@ -15,10 +15,10 @@ interface City {
 }
 
 const citymap: Record<string, City> = {
-  Tamachi_Nikko_Building: {
+  Tokyo: {
     //  35.6488620, 139.7422115
     center: { lat: 35.648862, lng: 139.7422115 },
-    population: 2714856,
+    population: 214856,
   },
 };
 
@@ -27,7 +27,7 @@ function initMap(): void {
   const map = new google.maps.Map(
     document.getElementById('map') as HTMLElement,
     {
-      zoom: 4,
+      zoom: 12,
       center: { lat: 35.648862, lng: 139.7422115 },
       mapTypeId: 'terrain',
     }
@@ -45,7 +45,7 @@ function initMap(): void {
       fillOpacity: 0.3,
       map,
       center: citymap[city].center,
-      radius: Math.sqrt(citymap[city].population) * 100,
+      radius: 6000,
     });
   }
 }

@@ -1,6 +1,6 @@
 # Run a Google Maps Platform JS sample in Google Cloud Shell
 
-<walkthrough-tutorial-duration duration="10"/>
+<walkthrough-tutorial-duration duration="1000"/>
 
 ## Introduction
 
@@ -60,9 +60,9 @@ npm start -- --port=8080
 
 There are three main files for this sample:
 
-*   <walkthrough-editor-open-file filePath="index.ts">src/index.ts</walkthrough-editor-open-file>
-*   <walkthrough-editor-open-file filePath="index.html">src/index.html</walkthrough-editor-open-file>
-*   <walkthrough-editor-open-file filePath="style.css">src/style.css</walkthrough-editor-open-file>
+- <walkthrough-editor-open-file filePath="index.ts">src/index.ts</walkthrough-editor-open-file>
+- <walkthrough-editor-open-file filePath="index.html">src/index.html</walkthrough-editor-open-file>
+- <walkthrough-editor-open-file filePath="style.css">src/style.css</walkthrough-editor-open-file>
 
 Try editing the <walkthrough-editor-open-file filePath="index.ts">src/index.ts</walkthrough-editor-open-file> file and see how the web application in the web preview immediately reloads with the changes.
 
