@@ -16,7 +16,7 @@ interface City {
 
 const citymap: Record<string, City> = {
   Tokyo: {
-    //  Tamachi Nikko Building, 
+    //  田町日工ビル, Tamachi Nikko Building,
     //  Japan, 〒108-0014 Tokyo, Minato  City,
     //  Shiba, 5-chōme−29−14
     //  35.6488620, 139.7422115
